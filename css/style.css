@@ -83,18 +83,17 @@ about the p inside the album-container div:
 */
 
 @media (min-width: 800px) {
-    .album-container {
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .album-container p {
-        border: 5px dashed #EE8434;
+        flex-direction: row-reverse;
         width: 25%;
     }
 
-    .album-art {
+    .album-container p {
         width: 20%;
+    }
+
+    .album-art {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
     }
 }
